@@ -11,6 +11,18 @@ This repository contains the python scripts powering the cleaning on text data a
 
 ## Installation
 
+```
+pip install pandas
+```
+
+```
+pip install nltk
+```
+
+```
+pip install deep_translator
+```
+
 
 ## I'm a Husband, Father, Developer, and Teacher!!
 
