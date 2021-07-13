@@ -1,6 +1,6 @@
 ## Job Title Classification
 
-This repository contains the python scripts powering the cleaning on text data as well as the research and documentation for feature extraction and choosing the accurate and high performance model for job title classification.
+This repository contains the python scripts powering the cleaning on text data as well as the research and documentation for feature extraction and choosing the accurate and high performance model for the job title classification task.
 
 ## Contents of the file
 
