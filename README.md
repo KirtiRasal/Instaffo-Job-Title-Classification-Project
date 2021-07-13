@@ -10,6 +10,10 @@ This repository contains the python scripts powering the cleaning on text data a
 - Output - Cleaned_text_data.csv
 - cleaning pipeline - Text_classification.py
 
+## Environment
+
+We need a python environment for executing the cleaning files. Latest python version can be supportive to run these files.
+
 ## Installation
 
 ```
