@@ -5,10 +5,27 @@ This repository contains the python scripts powering the cleaning on text data a
 
 ## Contents of the file
 
-- Input - data.json
-- Assets - Abbrevations.json, German_cities.json
-- Output - Cleaned_text_data.csv
-- cleaning pipeline - Text_classification.py
+- The Input file given to cleaning pipeline for processing the data.
+```
+Input - data.json
+```
+- Other files like Abbrevations.json (To convert shortened form to abbrevations) and German_cities.json (To remove unnecessary stop words like german cities) required while cleaning the data
+```
+Assets - Abbrevations.json, German_cities.json
+```
+- The final cleaned data.
+```
+Output - Cleaned_text_data.csv
+```
+- The pipeline for cleaning the data.
+```
+Cleaning_Pipeline_Task_1 - Text_classification.py
+```
+- Document consisting of model research (.md file to read the document and .pdf file to download it)
+```
+Cleaning_Pipeline_Task_1 - Modelling the text data.pdf
+```
+
 
 ## Environment
 
