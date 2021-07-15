@@ -16,6 +16,8 @@ We need a python environment for executing the cleaning files. Latest python ver
 
 ## Installation
 
+pip version 21.1.3
+
 ```
 pip install pandas
 ```
