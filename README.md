@@ -27,6 +27,9 @@ pip install pandas
 ```
 pip install bs4
 ```
+```
+pip install lxml
+```
 
 3. Install deep_translator 1.4.4 to convert the language to english.
 ```
