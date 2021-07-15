@@ -18,17 +18,23 @@ We need a python environment for executing the cleaning files. Latest python ver
 
 pip version 21.1.3
 
+1. Install pandas 1.3.0 to read the input json file.
 ```
 pip install pandas
 ```
 
+2. Install beautifulsoup4 4.9.3 to convert the HTML tags.
 ```
-pip install nltk
+pip install bs4
 ```
 
+3. Install deep_translator 1.4.4 to convert the language to english.
 ```
 pip install deep_translator
 ```
 
-[![Website](https://img.shields.io/website?label=codeSTACKr.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://codestackr.com)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
+4. Install nltk 3.6.2 to tokenize, lemmatize the tokens and remove stopwords.
+```
+pip install nltk
+```
+
