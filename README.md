@@ -58,4 +58,3 @@ pip install deep_translator
 pip install nltk
 ```
 
-The model classifies the contents of the descriptions into one of the three available categories.
