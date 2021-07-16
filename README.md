@@ -9,7 +9,7 @@ This repository contains the python script, powering the cleaning on text data, 
 ```
 Input - data.json
 ```
-- Other files like Abbrevations.json (To convert shortened form to abbrevations) and German_cities.json (To remove unnecessary stop words like german cities) required while cleaning the data
+- Other files like Abbrevations.json (To convert shortened form to abbrevations) and German_cities.json (To remove german city names from the stop words) required while cleaning the data
 ```
 Assets - Abbrevations.json, German_cities.json
 ```
