@@ -23,7 +23,7 @@ Cleaning_Pipeline_Task_1 - Text_classification.py
 ```
 - Document consisting of model research (.md file to read the document and .pdf file to download it)
 ```
-Cleaning_Pipeline_Task_1 - Modelling the text data.pdf
+Model_Research_Pipeline_Task_2 - Modelling the text data.pdf
 ```
 
 
