@@ -9,7 +9,7 @@ This repository contains the python script, powering the cleaning on text data, 
 ```
 Input - data.json
 ```
-- Other files like abbreviations.json (To convert shortened form to abbrevations) and german_cities.json (To remove german city names from the job description) required while cleaning the data
+- Other files like abbreviations.json (To convert shortened form to long form) and german_cities.json (To remove german city names from the job description) required while cleaning the data
 ```
 Assets - abbreviations.json, german_cities.json
 ```
