@@ -25,7 +25,10 @@ Cleaning_Pipeline_Task_1/Text_classification.py
 ```
 Model_Research_Task_2/ Model the text data.pdf
 ```
-
+- To install Python packages with pip and requirements.txt
+```
+requirements.txt
+```
 
 ## Environment
 
