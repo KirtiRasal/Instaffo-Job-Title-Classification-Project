@@ -43,7 +43,7 @@ $ pip install -r requirements.txt
 ```
 
 1. pandas is used to read the input json file.
-2. beautifulsoup4 is used to convert the HTML tags.
+2. html, beautifulsoup4 and lxml is used to convert the HTML tags.
 3. deep_translator is used to convert the language to english.
 4. nltk is used to tokenize, lemmatize the tokens and remove stopwords.
 
