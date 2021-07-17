@@ -38,13 +38,17 @@ pip version 21.1.3
 Install packages with pip: -r requirements.txt
 
 The following command will install the packages according to the configuration file requirements.txt
+Run the following command where requirements.txt file is located.
 ```
 $ pip install -r requirements.txt
 ```
 
 1. pandas is used to read the input json file.
+
 2. html, beautifulsoup4 and lxml is used to convert the HTML tags.
+
 3. deep_translator is used to convert the language to english.
+
 4. nltk is used to tokenize, lemmatize the tokens and remove stopwords.
 
 
