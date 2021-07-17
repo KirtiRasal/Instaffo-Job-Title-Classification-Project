@@ -21,7 +21,7 @@ Output - Cleaned_text_data.csv
 ```
 Cleaning_Pipeline_Task_1 - Text_classification.py
 ```
-- Document consisting of model research
+- The document consisting of model research
 ```
 Model_Research_Pipeline_Task_2 - Model the text data.pdf
 ```
