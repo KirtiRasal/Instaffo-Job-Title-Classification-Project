@@ -19,12 +19,12 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 # Reading the data from the json files
-text_df = pd.read_json('input/data.json')
-german_cities_df = pd.read_json('assets/germany.json')
+text_df = pd.read_json('Input/data.json')
+german_cities_df = pd.read_json('Assets/germany.json')
 german_cities_df['name'] = german_cities_df['name'].apply(lambda x: x.lower())
 
 # Reading abbreviations json file
-with open('assets/abbreviations.json') as json_file:
+with open('Assets/abbreviations.json') as json_file:
     abbreviations = json.load(json_file)
 
 # Creating a list of new stop_words to remove domain specific stop words
@@ -139,7 +139,7 @@ def main():
 
     print(text_df['clean_job_title'][0:20])
     # Saving the cleaned data in json file
-    text_df.to_json("output/clean_data.json", orient='records')
+    text_df.to_json("Output/clean_data.json", orient='records')
 
 
 if __name__ == "__main__":
