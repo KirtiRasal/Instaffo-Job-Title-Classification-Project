@@ -56,4 +56,6 @@ Description of the python packages used in the text cleaning pipeline.
 
 4. nltk is used to tokenize, lemmatize the tokens and remove stopwords.
 
+![alt text](https://github.com/KirtiRasal/Instaffo-Job-Title-Classification-Project/blob/main/Images/cleaning%20pipeline%20image.PNG?raw=true)
+
 
