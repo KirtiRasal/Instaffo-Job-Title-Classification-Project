@@ -43,6 +43,8 @@ Run the following command where requirements.txt file is located.
 $ pip install -r requirements.txt
 ```
 
+Description of the python packages used in the cleaning pipeline.
+
 1. pandas is used to read the input json file.
 
 2. html, beautifulsoup4 and lxml is used to convert the HTML tags.
