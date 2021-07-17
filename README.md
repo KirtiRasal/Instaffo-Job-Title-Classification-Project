@@ -35,26 +35,16 @@ We need a python environment for executing the cleaning files. Latest python ver
 
 pip version 21.1.3
 
-1. Install pandas 1.3.0 to read the input json file.
+Install packages with pip: -r requirements.txt
+
+The following command will install the packages according to the configuration file requirements.txt
 ```
-pip install pandas
+$ pip install -r requirements.txt
 ```
 
-2. Install beautifulsoup4 4.9.3 to convert the HTML tags.
-```
-pip install bs4
-```
-```
-pip install lxml
-```
+1. pandas is used to read the input json file.
+2. beautifulsoup4 is used to convert the HTML tags.
+3. deep_translator is used to convert the language to english.
+4. nltk is used to tokenize, lemmatize the tokens and remove stopwords.
 
-3. Install deep_translator 1.4.4 to convert the language to english.
-```
-pip install deep_translator
-```
-
-4. Install nltk 3.6.2 to tokenize, lemmatize the tokens and remove stopwords.
-```
-pip install nltk
-```
 
