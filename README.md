@@ -9,13 +9,13 @@ This repository contains the python script, powering the cleaning on text data, 
 ```
 Input - data.json
 ```
-- Other files like Abbrevations.json (To convert shortened form to abbrevations) and German_cities.json (To remove german city names from the job description) required while cleaning the data
+- Other files like abbreviations.json (To convert shortened form to abbrevations) and german_cities.json (To remove german city names from the job description) required while cleaning the data
 ```
-Assets - Abbrevations.json, German_cities.json
+Assets - abbreviations.json, german_cities.json
 ```
-- The final cleaned data.
+- The final cleaned text data.
 ```
-Output - Cleaned_text_data.csv
+Output - clean_text_data.json
 ```
 - The pipeline for cleaning the data.
 ```
