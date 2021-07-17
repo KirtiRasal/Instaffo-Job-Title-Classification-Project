@@ -125,7 +125,7 @@ def main():
     # Convert to lower case
     text_df['clean_job_title'] = text_df.apply(lambda row: row['clean_job_title'].lower(), axis=1)
 
-    # Tokenize the words
+    # Tokenize the sentence
     text_df['clean_job_title'] = text_df.apply(lambda row: word_tokenize(row['clean_job_title']),
                                                axis=1)
     # Remove stop words
