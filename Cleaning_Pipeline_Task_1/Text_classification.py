@@ -12,6 +12,9 @@ import pandas as pd
 
 from deep_translator import GoogleTranslator
 
+from spellchecker import SpellChecker
+spell = SpellChecker()
+
 import nltk
 nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
@@ -131,6 +134,9 @@ def main():
     # Remove stop words
     text_df['clean_job_title'] = text_df['clean_job_title'].apply(
         lambda x: [item for item in x if item not in stop])
+    
+    # Spelling correction
+    text_df['clean_job_title'] = text_df['clean_job_title'].apply(lambda row: [spell.correction(word) for word in row])
 
     # Lemmatize the words
     lemmatizer = WordNetLemmatizer()
