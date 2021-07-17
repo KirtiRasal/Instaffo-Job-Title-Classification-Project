@@ -37,13 +37,13 @@ pip version 21.1.3
 
 Install packages with pip: -r requirements.txt
 
-The following command will install the packages according to the configuration file requirements.txt
+The following command will install the packages according to the configuration file requirements.txt. 
 Run the following command where requirements.txt file is located.
 ```
 $ pip install -r requirements.txt
 ```
 
-Description of the python packages used in the cleaning pipeline.
+Description of the python packages used in the text cleaning pipeline.
 
 1. pandas is used to read the input json file.
 
