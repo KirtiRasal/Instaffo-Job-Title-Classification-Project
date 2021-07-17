@@ -5,25 +5,25 @@ This repository contains the python script, powering the cleaning on text data, 
 
 ## Contents of the file
 
-- The Input file given to cleaning pipeline for processing the data.
+- The Input file 'data.json' given to cleaning pipeline for processing the data is stored inside Input folder.
 ```
-Input - data.json
+Input/data.json
 ```
-- Other files like abbreviations.json (To convert shortened form to long form) and german_cities.json (To remove german city names from the job description) required while cleaning the data
+- Other files like 'abbreviations.json' (To convert shortened form to long form) and 'german_cities.json' (To remove german city names from the job description) required while cleaning the data are stored inside Assets folder.
 ```
-Assets - abbreviations.json, german_cities.json
+Assets/abbreviations.json, Assets/german_cities.json
 ```
-- The final cleaned text data.
+- The final cleaned text data 'clean_text_data.json' is stored inside Output folder
 ```
-Output - clean_text_data.json
+Output/clean_text_data.json
 ```
-- The pipeline for cleaning the data.
+- The pipeline for cleaning the data 'Text_classification.py' is stored inside Cleaning_Pipeline_Task_1 folder.
 ```
-Cleaning_Pipeline_Task_1 - Text_classification.py
+Cleaning_Pipeline_Task_1/Text_classification.py
 ```
-- The document consisting of model research
+- The document consisting of model research 'Model the text data.pdf' is stored inside Model_Research_Task_2 folder
 ```
-Model_Research_Task_2 - Model the text data.pdf
+Model_Research_Task_2/ Model the text data.pdf
 ```
 
 
