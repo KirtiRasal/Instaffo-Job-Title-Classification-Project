@@ -17,9 +17,9 @@ Assets/abbreviations.json, Assets/german_cities.json
 ```
 Output/clean_text_data.json
 ```
-- The pipeline for cleaning the data 'Text_classification.py' is stored inside Cleaning_Pipeline_Task_1 folder.
+- The pipeline for cleaning the data 'text_classification.py' is stored inside Cleaning_Pipeline_Task_1 folder.
 ```
-Cleaning_Pipeline_Task_1/Text_classification.py
+Cleaning_Pipeline_Task_1/text_classification.py
 ```
 - The document consisting of model research 'Model the text data.pdf' is stored inside Model_Research_Task_2 folder
 ```
@@ -65,9 +65,9 @@ Description of the python packages used in the text cleaning pipeline.
 ## Execution
 
 Change the directory of the file where project is located.
-Run the Text_classification.py python file using below command
+Run the text_classification.py python file using below command
 
-``` python Cleaning_Pipeline_Task_1/Text_classification.py ```
+``` python Cleaning_Pipeline_Task_1/text_classification.py ```
 
 After the command is executed, output will be stored in ``` Output/clean_text_data.json ``` folder
 
