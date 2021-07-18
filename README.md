@@ -58,6 +58,8 @@ Description of the python packages used in the text cleaning pipeline.
 
 3. deep_translator is used to convert the language to english.
 
-4. nltk is used to tokenize, lemmatize the tokens and remove stopwords.
+4. pyspellchecker to correct the spelling of tokens.
+
+5. nltk is used to tokenize, lemmatize the tokens and remove stopwords.
 
 
