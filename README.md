@@ -62,4 +62,13 @@ Description of the python packages used in the text cleaning pipeline.
 
 5. nltk is used to tokenize, lemmatize the tokens and remove stopwords.
 
+## Execution
+
+Change the directory of the file where project is located.
+Run the Text_classification.py python file using below command
+
+``` python Cleaning_Pipeline_Task_1/Text_classification.py ```
+
+After the command is executed, output will be stored in ``` Output/clean_text_data.json ``` folder
+
 
