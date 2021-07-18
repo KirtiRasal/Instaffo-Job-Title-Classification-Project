@@ -14,7 +14,6 @@ from deep_translator import GoogleTranslator
 from spellchecker import SpellChecker
 
 import nltk
-
 nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
