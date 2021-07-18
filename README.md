@@ -69,6 +69,6 @@ Run the text_classification.py python file using below command
 
 ``` python Cleaning_Pipeline_Task_1/text_classification.py ```
 
-After the command is executed, output will be stored in ``` Output/clean_text_data.json ``` folder
+After the command is executed, output will be stored in ``` Output/clean_text_data.json ``` location
 
 
