@@ -54,7 +54,7 @@ Description of the python packages used in the text cleaning pipeline.
 
 1. pandas is used to read the input json file.
 
-2. html, beautifulsoup4 and lxml is used to convert the HTML tags.
+2. html, bs4 and lxml is used to convert the HTML tags.
 
 3. deep_translator is used to convert the language to english.
 
