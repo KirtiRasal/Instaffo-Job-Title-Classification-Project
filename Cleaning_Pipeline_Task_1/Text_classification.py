@@ -65,6 +65,13 @@ def create_new_column(dataframe):
 
 # Creating custom stop words
 def custom_stop_words():
+    """
+    Function to create a custom stop words and extend it with original stop words.
+
+    Returns:
+        dataframe: The list of original and new stop words .
+
+    """
     # Reading the data of german_cities from the json files
     german_cities_df = pd.read_json(assets_german_cities)
 
