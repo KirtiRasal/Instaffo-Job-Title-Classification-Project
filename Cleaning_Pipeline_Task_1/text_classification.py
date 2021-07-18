@@ -198,12 +198,11 @@ def main():
     spell = SpellChecker()
     text_df['clean_job_title'] = text_df['clean_job_title'].apply(lambda row: [spell.correction(word) for word in row])
 
-    # Lemmatize the words (As we don't want to loose the adverbs of few tokens, we will only apply lemmatization)
+    # Lemmatize the words (As we don't want to loose the adverbs of few tokens)
     lemmatizer = WordNetLemmatizer()
     text_df['clean_job_title'] = text_df['clean_job_title'].apply(
         lambda row: [lemmatizer.lemmatize(w) for w in row])
 
-    print(text_df['clean_job_title'][0:20])
     # Saving the cleaned data in json file
     text_df.to_json(output_file_path, orient='records')
 
